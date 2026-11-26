@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f4eb" />
+    <title>Ondo — 사물의 온도</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="../implementations/web/tokens.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#content">본문으로 건너뛰기</a>
+    <header class="top">
+      <div class="bound top-inner">
+        <a href="#home" class="brand" aria-label="온도 홈"
+          ><span class="seal" aria-hidden="true"></span><b>Ondo</b
+          ><span class="brand-ko">온도</span></a
+        >
+        <nav aria-label="주 메뉴">
+          <a href="#home">전시실</a><a href="#archive">소장품</a><a href="#desk">나의 감상실</a>
+        </nav>
+        <a href="#settings" class="settings-link">화면 설정</a>
+      </div>
+    </header>
+    <main id="content" class="bound" tabindex="-1"></main>
+    <footer class="bound">
+      <span class="footer-brand">Ondo</span><span>한국 도자 감상실</span
+      ><a href="#archive">소장품 둘러보기 →</a>
+    </footer>
+    <div id="status" role="status" class="sr"></div>
+  </body>
+</html>
